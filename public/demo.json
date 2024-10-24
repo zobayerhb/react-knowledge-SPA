@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "cover_pic": "https://i.ibb.co.com/Sv736Wq/blog.jpg",
+    "author_name": "Jane Doe",
+    "author_img": "https://example.com/images/authors/jane_doe.jpg",
+    "reading_time": 5,
+    "title": "Exploring the Cosmos: A Journey Through Space",
+    "hashtag": ["#space", "#science", "#cosmos"]
+  },
+  {
+    "id": 2,
+    "cover_pic": "https://i.ibb.co.com/Sv736Wq/blog.jpg",
+    "author_name": "John Smith",
+    "author_img": "https://example.com/images/authors/john_smith.jpg",
+    "reading_time": 7,
+    "title": "The Art of Mindfulness: Finding Peace in Chaos",
+    "hashtag": ["#mindfulness", "#wellbeing", "#meditation"]
+  },
+  {
+    "id": 3,
+    "cover_pic": "https://i.ibb.co.com/Sv736Wq/blog.jpg",
+    "author_name": "Emily White",
+    "author_img": "https://example.com/images/authors/emily_white.jpg",
+    "reading_time": 4,
+    "title": "A Guide to Minimalist Living: Less is More",
+    "hashtag": ["#minimalism", "#lifestyle", "#simplicity"]
+  },
+  {
+    "id": 4,
+    "cover_pic": "https://i.ibb.co.com/Sv736Wq/blog.jpg",
+    "author_name": "Michael Brown",
+    "author_img": "https://example.com/images/authors/michael_brown.jpg",
+    "reading_time": 6,
+    "title": "The Future of Technology: What’s Next?",
+    "hashtag": ["#technology", "#innovation", "#future"]
+  }
+]
