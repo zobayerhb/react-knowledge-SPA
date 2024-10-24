@@ -1,5 +1,4 @@
 import { useState } from "react";
-import Blog from "../Blog/Blog";
 import { useEffect } from "react";
 
 const Blogs = () => {
@@ -12,9 +11,8 @@ const Blogs = () => {
   }, []);
 
   return (
-    <div>
+    <div className="w-2/3">
       <p>Blogs length: {blogs.length}</p>
-      <Blog></Blog>
     </div>
   );
 };
