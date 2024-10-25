@@ -7,9 +7,10 @@ import Header from "./components/Header/Header";
 function App() {
   const [bookmarks, setBookmarks] = useState([]);
 
-  const handleBookmarks = blog => {
-    console.log('adding blog bookmark');
-  }
+  const handleBookmarks = (blog) => {
+    const newBookmark = [...bookmarks, blog];
+    setBookmarks(newBookmark);
+  };
 
   return (
     <>
@@ -20,7 +21,7 @@ function App() {
       {/* main container */}
       <div className="max-w-[1280px] mx-auto md:flex ">
         <Blogs handleBookmarks={handleBookmarks}></Blogs>
-        <Bookmarks></Bookmarks>
+        <Bookmarks bookmarks={bookmarks}></Bookmarks>
       </div>
     </>
   );

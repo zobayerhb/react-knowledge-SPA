@@ -26,7 +26,7 @@ const Blogs = ({ handleBookmarks }) => {
 };
 
 Blogs.propTypes = {
-  handleBookmarks: PropTypes.func.isRequired
-}
+  handleBookmarks: PropTypes.func.isRequired,
+};
 
 export default Blogs;
